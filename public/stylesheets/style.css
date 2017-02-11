@@ -1,3 +1,6 @@
+/*This page has all the extra styles that is added to the formal bootstrap framework to make it more suitable to this site */
+
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -22,8 +25,7 @@ a {
 }
 
 #home{
-	/*background-image: url('/images/minniehome.jpg');*/
-	height: 650px;
+	height: 100%;
 	width: 100%;
 	background-size: cover;
 }
@@ -36,7 +38,7 @@ a {
 }
 
 #minimg{
-	width: 70%
+	width: 105%
 }
 
 #githublogo{
@@ -54,4 +56,8 @@ a {
 
 .td_size{
 	width: 25%;
+}
+
+.th_font{
+	font-size: 1.1em;
 }
